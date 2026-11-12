@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.WargaHubP04"
+        parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/p04_navy</item>
+        <item name="colorPrimaryDark">@color/p04_navy</item>
+        <item name="colorAccent">@color/p04_navy</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowBackground">@color/p04_page</item>
+    </style>
+</resources>

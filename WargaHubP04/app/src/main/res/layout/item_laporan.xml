@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/item_gap"
+    android:orientation="vertical"
+    android:minHeight="72dp"
+    android:padding="16dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="?attr/selectableItemBackground">
+    <TextView
+        android:id="@+id/tvJudul"
+        style="@style/Widget.WargaHubP04.Text"
+        android:textStyle="bold"
+        android:importantForAccessibility="no" />
+    <TextView
+        android:id="@+id/tvKategori"
+        style="@style/Widget.WargaHubP04.Text"
+        android:importantForAccessibility="no" />
+    <TextView
+        android:id="@+id/tvStatus"
+        style="@style/Widget.WargaHubP04.Text"
+        android:importantForAccessibility="no" />
+</LinearLayout>

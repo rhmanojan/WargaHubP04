@@ -1,0 +1,21 @@
+# Gradle & Build
+.gradle/
+build/
+**/build/
+WargaHubP04/.gradle/
+WargaHubP04/build/
+WargaHubP04/app/build/
+
+# Local & IDE settings
+*.iml
+.idea/
+**/.idea/
+local.properties
+**/local.properties
+.DS_Store
+/captures
+.externalNativeBuild
+.cxx
+
+# OS / Scratch
+Thumbs.db

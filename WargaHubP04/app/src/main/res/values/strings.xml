@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WargaHub P04</string>
+    <string name="nav_home">Beranda</string>
+    <string name="nav_list">Daftar Laporan</string>
+    <string name="nav_detail">Rincian Laporan</string>
+    <string name="home_title">WargaHub</string>
+    <string name="home_intro">Pelajari cara membaca laporan lingkungan melalui daftar dan rincian.</string>
+    <string name="demo_note">Data contoh untuk latihan. Bukan laporan nyata dan belum memakai database.</string>
+    <string name="open_list">Lihat Daftar Laporan</string>
+    <string name="list_help">Pilih satu laporan untuk melihat rinciannya.</string>
+    <string name="try_empty">Uji Daftar Kosong</string>
+    <string name="show_sample">Tampilkan Data Contoh</string>
+    <string name="empty_message">Belum ada laporan pada tampilan latihan. Pilih Tampilkan Data Contoh.</string>
+    <string name="list_count">%1$d laporan contoh</string>
+    <string name="row_status">Status contoh: %1$s</string>
+    <string name="row_description">%1$s. Kategori %2$s. Status contoh %3$s. Buka rincian.</string>
+    <string name="detail_help">Periksa kesesuaian rincian dengan laporan yang dipilih.</string>
+    <string name="detail_category">Kategori: %1$s</string>
+    <string name="detail_status">Status contoh: %1$s</string>
+    <string name="detail_missing">Laporan tidak ditemukan. Kembali ke daftar dan pilih data contoh.</string>
+    <string name="back_list">Kembali ke Daftar</string>
+</resources>

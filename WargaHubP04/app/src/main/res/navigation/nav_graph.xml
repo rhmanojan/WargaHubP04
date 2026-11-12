@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="id.antasari.p04.wargahub.ui.HomeFragment"
+        android:label="@string/nav_home">
+        <action
+            android:id="@+id/action_home_to_list"
+            app:destination="@id/listFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="id.antasari.p04.wargahub.ui.ListFragment"
+        android:label="@string/nav_list">
+        <action
+            android:id="@+id/action_list_to_detail"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="id.antasari.p04.wargahub.ui.DetailFragment"
+        android:label="@string/nav_detail">
+        <argument
+            android:name="laporan_id"
+            app:argType="long"
+            android:defaultValue="-1L" />
+    </fragment>
+</navigation>
